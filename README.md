@@ -1,4 +1,6 @@
-we will be using two data sets from the city of Austin:
+Group 4: John, Ediya and Jasmina
+
+We will be using two data sets from the city of Austin:
 * Austin crime data
 * Austin affordable housing data
 
