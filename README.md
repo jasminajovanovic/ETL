@@ -13,3 +13,6 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 * Then we reduced the crime dataframe to two columns (Offense type and zip code).
 
 ### Database Creation Steps
+
+* The two data sets were combined using an inner join.
+* Using SQLAlchemy, we opened a connection to a new SQL database and output the combined dataset. 
