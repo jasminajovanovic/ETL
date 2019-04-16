@@ -17,7 +17,7 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 
 ### Difficulties 
 
-* There were several NaN values in the zip code columns for both data sets that were not displaying on our dataframes. We had to use (.isnull()) in order to identify and drop and NaN values. 
+* There were several NaN values in the zip code columns for both data sets that were not displaying on our dataframes. We had to use (.isnull()) in order to identify and drop and NaN values. Once this was done, we were able to successfully convert the zip code datatype from float to integer. 
 
 ### Database Creation Steps
 
