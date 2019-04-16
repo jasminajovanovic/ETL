@@ -16,5 +16,9 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 
 ### Database Creation Steps
 
-* The two data sets were combined using an inner join.
+* The two datasets were combined using an inner join.
 * Using SQLAlchemy, we opened a connection to a new SQL database and output the combined dataset. 
+
+### Future Analysis
+
+* The combined dataset could be used to determine if there is a correlation between crime and the presence of afforable housing units.
