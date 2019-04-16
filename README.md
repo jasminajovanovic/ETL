@@ -15,6 +15,10 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 * Then we reduced the crime dataframe to two columns (Offense type and zip code).
 * Finally, we converted the zip codes in both tables from floats to integers. 
 
+### Difficulties 
+
+* There were several NaN values in the zip code columns for both data sets that were not displaying on our dataframes. We had to use (.isnull()) in order to identify and drop and NaN values. 
+
 ### Database Creation Steps
 
 * The two datasets were combined using an inner join.
