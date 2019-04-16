@@ -12,8 +12,8 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 * We first used pandas to load the affordable housing data into a dataframe, then we isolated the columns we needed (Property name, zip code, and total number of afforable housing units).
 * The total number of housing units were listed per developer, so we grouped by zip code and summed the units.
 * Next, we loaded the austin crime data into a data frame and determined the value counts for each listed incident type. 
-* Then we reduced the crime dataframe to two columns (Offense type and zip code).
-* Finally, we converted the zip codes in both tables from floats to integers. 
+* We then converted the zip codes in both tables from floats to integers. 
+* The columns were renamed for clarity. 
 
 ### Difficulties 
 
@@ -21,7 +21,7 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 
 ### Database Creation Steps
 
-* The two datasets were combined using an inner join.
+* The two datasets were combined using an inner join on zip code.
 * Using SQLAlchemy, we opened a connection to a new SQL database and output the combined dataset. 
 
 ### Future Analysis
