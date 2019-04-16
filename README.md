@@ -1,4 +1,5 @@
-## Group 4: John, Ediya and Jasmina
+## ETL Project
+### Group 4: John, Ediya and Jasmina
 
 We will be using two data sets from the city of Austin:
 * Austin crime data: https://data.austintexas.gov/Public-Safety/2016-Annual-Crime-Data/8iue-zpf6
