@@ -10,7 +10,7 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 ### Steps Taken to Clean Data
 
 * We first used pandas to load the affordable housing data into a dataframe, then we isolated the columns we needed (Property name, zip code, and total number of afforable housing units).
-* The total number of housing units were listed per developer, so we grouped by zip code and summed the units.
+* The total number of housing units were listed per developer, so we grouped by zip code and summed the units. 
 * Next, we loaded the austin crime data into a data frame and determined the value counts for each listed incident type. 
 * We then converted the zip codes in both tables from floats to integers. 
 * The columns were renamed for clarity. 
