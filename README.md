@@ -18,6 +18,7 @@ We will join the two datasets on zipcode key and the resulting dataset can be us
 ### Difficulties 
 
 * There were several NaN values in the zip code columns for both data sets that were not displaying on our dataframes. We had to use (.isnull()) in order to identify and drop and NaN values. Once this was done, we were able to successfully convert the zip code datatype from float to integer. 
+* When writing to the SQL database, we initially received an error stating that we couldn't insert the date field. We had to change the datatype to 'datetime' and then strip off the hours and minutes. This corrected the error and allowed us to write to the database. 
 
 ### Database Creation Steps
 
